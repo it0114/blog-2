@@ -1,0 +1,10 @@
+.archives-list{
+    margin-left: 12%;
+}
+.item h3{
+    color:#337ab7;
+}
+.archives-list li:hover,
+.archives-list li:hover a{
+    color: red !important;
+}

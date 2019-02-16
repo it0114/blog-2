@@ -1,0 +1,113 @@
+/*代码块开始*/
+::selection {
+    background: #2b4d60;
+    color: #000;
+    color: #fff;
+}
+::-moz-selection {
+    background: #2b4d60;
+    color: #000;
+    color: #fff;
+}
+/*火狐浏览器*/
+::-webkit-selection {
+    background: #2b4d60;
+    color: #000;
+    color: #fff;
+}
+/*谷歌*/
+pre code {
+    font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+}
+.hljs {
+    padding: 0 !important;
+    background: #313842 !important;
+}
+.hljs-ln td {
+    padding: 2px 10px;
+}
+/* for block of numbers */
+td.hljs-ln-numbers {
+    text-align: center;
+    color: #2F7689;
+    background-color: #EFF2F3;
+    /*border-right: 0.5px solid #CCC;*/
+    vertical-align: top;
+}
+/* for block of code */
+td.hljs-ln-code {
+    padding-left: 5px;
+}
+/*代码块结束*/
+
+.codeDerails{
+    width: 90%;
+    margin: 0 auto  ;
+}
+.codeDerails .codePosition a{
+    font-size: 16px;
+}
+.codeDerails a{
+    color: #00a9e0;
+    font-size: 18px;
+}
+.codeDerails> *{
+    color: #686868;
+}
+.codeDerails .title{
+    margin: 30px 0;
+}
+.codeDerails .intro,
+.codeDerails .transshipment
+{
+    background: #EEEEEE;
+    padding: 5px 10px;
+}
+.codeDerails .intro span,
+.codeDerails  .transshipment span{
+    font-weight: bold;
+    color: #000;
+}
+.codeDerails .intro p,
+.codeDerails  .transshipment p{
+    text-indent: 2em;
+}
+.codeDerails .mainBody .mainText{
+    padding:10px;
+    text-indent: 2em;
+    margin: 10px auto;
+    line-height: 2;
+}
+.codeDerails .mainBody img{
+    max-width: 100% ;
+    display: inline-block;
+    margin: 10px 0;
+}
+.codeDerails .mainBody .articleBtn{
+    margin: 20px 0;
+}
+.codeDerails .mainBody .articleBtn>*{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+.codeDerails .mainBody .articleBtn .article_down{
+    float: right;
+    text-align: right;
+    border-left: 1px dashed #686868;
+}
+.codeDerails .mainBody .articleBtn span{
+    display: block;
+    color: #7a7a7a;
+}
+.hljs-ln-numbers{
+    width: 30px;
+
+}
+.monokai-sublime{
+    font-size: 16px;
+}
+.end{
+    margin-top: 10%;
+}

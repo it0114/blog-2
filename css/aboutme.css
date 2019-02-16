@@ -1,0 +1,242 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.aboutme{
+    width: 100% ;
+    text-align: center;
+}
+.aboutme>.img{
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+.aboutme>p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.aboutme>.img:hover{
+    transform: rotate(360deg);
+}
+
+
+
+.about_me{
+    text-align: left;
+}
+
+.about_me .leave_p {
+    padding: 10px;
+}
+
+.about_me .leave_word, .about_me .leave_word_B {
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+.about_me .leave_word_B #security-code{
+    width: 40%;
+}
+.about_me .leave_word_B #security-code~img{
+    height: 35px;
+}
+
+.about_me .leave_word textarea {
+    display: inline-block;
+    width: 59%;
+    padding: 5px;
+    resize: none;
+    background: #EEEEEE;
+    border: 0;
+}
+
+.about_me .left {
+    width: 40%;
+    display: inline-block;
+    color: #686868;
+    padding: 10px;
+}
+
+.about_me .left span {
+    color: #ababab;
+}
+
+.about_me .leave_word_B input {
+    padding: 5px;
+    height: 35px;
+    width: 59%;
+    background: #EEEEEE;
+    border: 0;
+}
+
+.about_me .btn1 {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.about_me .btn1::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.about_me .btn1 > * {
+    width: 18%;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    float: right;
+}
+
+.about_me .btn1 button:nth-child(1) {
+    background: #778899;
+}
+
+.about_me .btn1 button:nth-child(2) {
+    margin-right: 20px;
+    background: #808080;
+}
+
+
+.about_me .about_span {
+    display: block;
+    text-align: center;
+}
+
+
+.about_me .comment {
+    color: #686868;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about_me .comment li {
+    border-bottom: 1px dashed #686868;
+    margin-bottom: 20px;
+}
+
+.about_me .comment h4 a {
+    color: #686868;
+    font-size: 22px;
+    float: left;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.about_me .comment span {
+    float: right;
+    display: inline-block;
+    color: #a7a7a7;
+    margin: 0 10px;
+}
+.about_me .comment span.date{
+    margin-top:2px;
+}
+.about_me .comment p {
+    margin: 10px 0;
+    text-indent: 2em;
+}
+
+.about_me .comment div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about_me .comment div i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    background: url("../images/head.png") center;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top:5px;
+}
+
+.about_me .reply {
+    width: 95%;
+    min-height: 50px;
+    background: #eeeeee;
+    color: #000;
+    margin: 10px auto;
+    padding: 10px;
+}
+.layui-elem-quote{
+    margin: 20px 0;
+}
+
+
+.main .pay p{
+    color: #686868;
+    text-align: center;
+    line-height: 2;
+}
+.main .pay{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.main .pay img{
+    width: 200px;
+    margin: 10px auto;
+}
+.main .pay p a{
+    color:blue;
+}
+.main .pay .pay_img{
+    width: 95%;
+    margin: 9% auto;
+    text-align: center;
+}
+#mask{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+    .about_me p {
+        font-size: 14px;
+    }
+    .about_me .left,
+    .about_me .btn1>*,
+    .about_me input,
+    .about_me textarea{
+        width: 100% !important;
+    }
+    .about_me .btn1>*{
+        float: none;
+        margin: 10px 0;
+    }
+    .about_me .leave_word_B #security-code{
+        width: 60% !important;
+    }
+    .about_me .leave_word_B #security-code~img{
+        width: 40%;
+        float: right;
+        height: 35px;
+    }
+}
+
+
+
